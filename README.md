@@ -6,10 +6,10 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Proyecto de Calendario laboral de oficinas del AYuntamiento de Vitoria
 
 ```markdown
-Syntax highlighted code block
+Para llevar el control de los fichajes
 
 # Header 1
 ## Header 2
