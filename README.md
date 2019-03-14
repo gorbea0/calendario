@@ -32,4 +32,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 ### Support or Contact
 
-Having trouble with my Excel calendar? Check out my [documentation](https://help.github.com/categories/github-pages-basics/) or [contact me](https://github.com/contact) and I’ll help you sort it out.
+Having trouble with my Excel calendar? Check out this [documentation] or [contact me]<gorbea0@gmail.com> and I’ll help you sort it out.
