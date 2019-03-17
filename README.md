@@ -9,6 +9,22 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ### Proyecto de Calendario laboral de oficinas del Ayuntamiento de Vitoria
 
 ```markdown
+
+
+
+
+
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+
 Para llevar el control de los fichajes
 
 En Herramientas--Opciones--Seguridad--Seguridad de macros hay que permitir la ejecución de macros poniendo nivel de seguridad bajo para que se pueda ejecutar el código de VBA
@@ -55,18 +71,6 @@ Si tienes alguna sugerencia o ves algún fallo puedes contactarme en mailto:ounz
 Este software me funciona perfectamente en mi caso, pero habría que adaptarlo a otros casos particulares cuya problemática desconozco. Ten cuidado en no borrar fórmulas cuando borres celdas.
 
 
-
-
-
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gorbea0/calendario/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
