@@ -28,8 +28,12 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 Para llevar el control de los fichajes
 
 En Herramientas--Opciones--Seguridad--Seguridad de macros hay que permitir la ejecución de macros poniendo **nivel de seguridad bajo** para que se pueda ejecutar el código de VBA
+
+
 Lo primero que hay que definir en la hoja ++CONFIGURACION++ los datos de usuario a modificar si no nos valen los que hay por defecto (columna J). Este calendario no está pensado para los que trabajen a turnos de mañana/tarde/noche.
-```markdown
+
+
+```
 Jornada anual genérica en  horas
 Jornada diaria
 Entrada mínima
@@ -37,14 +41,19 @@ Entrada máxima
 Salida mínima
 Salida máxima
 Días de vacaciones a pasar al año que viene
+```
 
 A continuación ponemos los días de vacaciones, puentes, canosos etc que nos corresponden en el año (columna G): Si tienes otro tipo que no se corresponde lo asocias al más parecido
-Vacaciones
-Asuntos propios SS
-Asuntos particulares
-Canosos
-Puentes
-Vacaciones año anterior
+
+
+>Vacaciones
+>Asuntos propios SS
+>Asuntos particulares
+>Canosos
+>Puentes
+>Vacaciones año anterior
+
+
 Ahora vamos a la hoja DIARIO y ponemos todos los días que tenemos vacaciones, cursos, bajas, puentes etc en la columna B, llamada categoría
 
 
@@ -52,11 +61,15 @@ En la columna COMENTARIO podemos poner observaciones. Es importante que esté co
 
 Las categorías hay que elegirlas de la lista desplegable o bien escribirlo exactamente igual ej. Vacaciones, Puentes etc empezando por mayúscula.
 
+
 Ya sólo queda ir anotando cada día en la hoja DIARIO la hora de entrada y salida correspondiente (columnas D y E)o bien usar el botón fichar hoy.
 También he añadido la posibilidad de capturar los datos del reporte de "Control Horario" para ello:
 Vamos a la web del Ayunta: Minfoweb 
 
+
 Y solicitamos con nuestras credenciales el informe horario especificando la fecha inicial y final (mejor no complicarse y pedir desde el 1 de enero hasta ayer)
+
+
 Ir a "Informes Personales" / "Listado de Fichajes" y pinchar en el radiobuttom "Excel" y dar a Aceptar.
 Darle a "ABRIR" y nos saldrá una hoja de Excel con nuestros fichajes. Ya sólo tenemos que seleccionar las 5 columnas de los fichajes (fecha, columna vacía, entrada, salida y horas trabajadas) 
 Una vez seleccionado el rango con las 5 columnas dar a COPIAR y pegarlo en la hoja "ControlHorario" de este libro de Excel.
