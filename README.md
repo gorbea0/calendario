@@ -1,16 +1,13 @@
 ## Welcome to GitHub Pages by Oskar Unzueta
 
-You can use the [editor on GitHub](https://github.com/gorbea0/calendario/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 
 
+
 ### Proyecto de Calendario laboral de oficinas del Ayuntamiento de Vitoria
-
-
-
-
 
 
 
@@ -43,15 +40,18 @@ Salida máxima
 Días de vacaciones a pasar al año que viene
 ```
 
+---
+
+
 A continuación ponemos los días de vacaciones, puentes, canosos etc que nos corresponden en el año (columna G): Si tienes otro tipo que no se corresponde lo asocias al más parecido
 
 
-*Vacaciones
-*Asuntos propios SS
-*Asuntos particulares
-*Canosos
-*Puentes
-*Vacaciones año anterior
+* Vacaciones
+* Asuntos propios SS
+* Asuntos particulares
+* Canosos
+* Puentes
+* Vacaciones año anterior
 
 
 Ahora vamos a la hoja **DIARIO** y ponemos todos los días que tenemos vacaciones, cursos, bajas, puentes etc en la columna B, llamada categoría
@@ -71,7 +71,7 @@ Y solicitamos con nuestras credenciales el informe horario especificando la fech
 
 
 Ir a "Informes Personales" / "Listado de Fichajes" y pinchar en el radiobuttom "Excel" y dar a Aceptar.
-Darle a "ABRIR" y nos saldrá una hoja de Excel con nuestros fichajes. Ya sólo tenemos que seleccionar las 5 columnas de los fichajes (fecha, columna vacía, entrada, salida y horas trabajadas) 
+Darle a **"ABRIR"** y nos saldrá una hoja de Excel con nuestros fichajes. Ya sólo tenemos que seleccionar las 5 columnas de los fichajes (fecha, columna vacía, entrada, salida y horas trabajadas) 
 Una vez seleccionado el rango con las 5 columnas dar a COPIAR y pegarlo en la hoja "ControlHorario" de este libro de Excel.
 La primera fila son los títulos de las columnas puedes sobreescribirlos si quieres ya que el scrip ignora la primera fila.
 Dar al botón "Procesar datos" y al cabo de poco tiempo los datos de fichaje se habrán transcrito a la hoja "Diario" y se habrán analizado los códigos.
