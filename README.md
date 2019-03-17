@@ -22,7 +22,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Instrucciones de uso
 
 
 Para llevar el control de los fichajes
@@ -46,7 +46,7 @@ Días de vacaciones a pasar al año que viene
 A continuación ponemos los días de vacaciones, puentes, canosos etc que nos corresponden en el año (columna G): Si tienes otro tipo que no se corresponde lo asocias al más parecido
 
 
->*Vacaciones
+*Vacaciones
 *Asuntos propios SS
 *Asuntos particulares
 *Canosos
@@ -80,7 +80,7 @@ Ya puedes ver la información en el dashboard.
 He añadido un botón para establecer automáticamente los dias festivos y los fines de semana en la hoja diario, sólo están los festivos fijos, faltarían los variables como semana santa, puentes obligados, San José, San Mateo etc.
 En configuración podemos asignar colores a los distintos tipos de permisos o festivos y verlo reflejado en las hojas diario y año. Podemos modificar los colores tantas veces como queramos.
 No borrar por error las fórmulas de las celdas. No están protegidas!
-Si tienes alguna sugerencia o ves algún fallo puedes contactarme en mailto:ounzueta@vitoria-gasteiz.org
+Si tienes alguna sugerencia o ves algún fallo puedes contactarme en  [contacto](mailto:ounzueta@vitoria-gasteiz.org)
 
 Este software me funciona perfectamente en mi caso, pero habría que adaptarlo a otros casos particulares cuya problemática desconozco. Ten cuidado en no borrar fórmulas cuando borres celdas.
 
