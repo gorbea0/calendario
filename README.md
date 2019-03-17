@@ -60,6 +60,10 @@ Las categorías hay que elegirlas de la lista desplegable o bien escribirlo exac
 
 
 Ya sólo queda ir anotando cada día en la hoja DIARIO la hora de entrada y salida correspondiente (columnas D y E)o bien usar el botón fichar hoy.
+
+---
+
+
 También he añadido la posibilidad de capturar los datos del reporte de `Control Horario` para ello:
 Vamos a la web del Ayunta: Minfoweb 
 
@@ -80,17 +84,29 @@ Ya puedes ver la información en el *dashboard*.
 ---
 
 
-He añadido un botón para establecer automáticamente los dias festivos y los fines de semana en la hoja diario, sólo están los festivos fijos, faltarían los variables como semana santa, puentes obligados, San José, San Mateo etc.
+He añadido un botón para establecer automáticamente los dias festivos y los fines de semana en la hoja diario, sólo están los festivos fijos, faltarían los variables como semana santa, puentes obligados, San José, San Mateo etc. Gracias a esto cada año se genera automáticamente los días festivos aunque los variables habría que anotarlos manualmente en la hoja diario, segunda columna. Si el usuario vuelve a generar los festivos por segunda vez no pasaría nada ya que lo reescribe, se puede hacer si sospechamos que se haya borrado algún festivo. Si definimos los festivos manualmente es importante hacerlo seleccionando desde la lista desplegable ya que cada categoría *"Festivo"*, *"Weekend"* etc debe escribirse exactamente igual es decir empezando con mayúscula etc. Si no escribimos la categoría de forma excata no podrá hacer los recuentos correctamente. En próximas versiones se podría mejorar este aspecto.
 
 
 En configuración podemos asignar colores a los distintos tipos de permisos o festivos y verlo reflejado en las hojas diario y año. Podemos modificar los colores tantas veces como queramos.
 
-
+Nota importante:
+Esta aplicación es un mash up de código VBA y fórmulas convencionales de Excel insertadas en las celdas. Si se borra alguna celda con fórmulas podría dejar de funcionar algunos cálculos y no daría error.
 No borrar por error las fórmulas de las celdas. **No están protegidas!**
+El usuario puede borrar sin problema las columnas de fichaje de entrada y salida de la hoja `diario` y las de la hoja `ControlHorario`.
+
+
 Si tienes alguna sugerencia o ves algún fallo puedes contactarme en  [contacto](mailto:ounzueta@vitoria-gasteiz.org)
 
-Este software me funciona perfectamente en mi caso, pero habría que adaptarlo a otros casos particulares cuya problemática desconozco. Ten cuidado en no borrar fórmulas cuando borres celdas.
+Este software me funciona perfectamente en mi caso, pero habría que adaptarlo a otros casos particulares cuya problemática desconozco, a lo mejor no vaya bien con medias-jornadas, trabajos a turnos o en festivos etc: No conozco toda la normativa de jornadas laborales!.
 
+
+Ten cuidado en no borrar fórmulas cuando borres celdas.
+
+### Características para nuevas versiones
+
+1. Poder elegir el color de la tinta no sólo del fondo para cada tipo de categoría.
+2. Mejoras en la representación de la información.
+3. Convertir las categorías etc en no-case-sensitive.
 
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gorbea0/calendario/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
@@ -99,4 +115,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 ### Support or Contact
 
-Having trouble with my Excel calendar? Check out this [documentation] or [contact me]<gorbea0@gmail.com> and I’ll help you sort it out.
+Having trouble with my Excel calendar? Check out this documentation or [contact me](mailto:gorbea0@gmail.com) and I’ll help you sort it out.
