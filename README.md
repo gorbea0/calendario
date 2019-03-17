@@ -18,7 +18,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
-```
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
@@ -46,18 +46,18 @@ Días de vacaciones a pasar al año que viene
 A continuación ponemos los días de vacaciones, puentes, canosos etc que nos corresponden en el año (columna G): Si tienes otro tipo que no se corresponde lo asocias al más parecido
 
 
->Vacaciones
->Asuntos propios SS
->Asuntos particulares
->Canosos
->Puentes
->Vacaciones año anterior
+>*Vacaciones
+*Asuntos propios SS
+*Asuntos particulares
+*Canosos
+*Puentes
+*Vacaciones año anterior
 
 
-Ahora vamos a la hoja DIARIO y ponemos todos los días que tenemos vacaciones, cursos, bajas, puentes etc en la columna B, llamada categoría
+Ahora vamos a la hoja **DIARIO** y ponemos todos los días que tenemos vacaciones, cursos, bajas, puentes etc en la columna B, llamada categoría
 
 
-En la columna COMENTARIO podemos poner observaciones. Es importante que esté correcta la columna categorías con nuestros festivos, vacaciones, bajas etc para que calcule bien
+En la columna ***COMENTARIO*** podemos poner observaciones. Es importante que esté correcta la columna categorías con nuestros festivos, vacaciones, bajas etc para que calcule bien
 
 Las categorías hay que elegirlas de la lista desplegable o bien escribirlo exactamente igual ej. Vacaciones, Puentes etc empezando por mayúscula.
 
