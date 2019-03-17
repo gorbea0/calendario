@@ -8,7 +8,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Proyecto de Calendario laboral de oficinas del Ayuntamiento de Vitoria
 
-```markdown
+
 
 
 
@@ -27,8 +27,9 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 Para llevar el control de los fichajes
 
-En Herramientas--Opciones--Seguridad--Seguridad de macros hay que permitir la ejecución de macros poniendo nivel de seguridad bajo para que se pueda ejecutar el código de VBA
-Lo primero que hay que definir en la hoja CONFIGURACION los datos de usuario a modificar si no nos valen los que hay por defecto (columna J). Este calendario no está pensado para los que trabajen a turnos de mañana/tarde/noche.
+En Herramientas--Opciones--Seguridad--Seguridad de macros hay que permitir la ejecución de macros poniendo **nivel de seguridad bajo** para que se pueda ejecutar el código de VBA
+Lo primero que hay que definir en la hoja ++CONFIGURACION++ los datos de usuario a modificar si no nos valen los que hay por defecto (columna J). Este calendario no está pensado para los que trabajen a turnos de mañana/tarde/noche.
+```markdown
 Jornada anual genérica en  horas
 Jornada diaria
 Entrada mínima
